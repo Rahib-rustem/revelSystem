@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <link rel="stylesheet" href="../dev/bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../dev/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dev/font-awesome/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Customer name and order name</title>
+</head>
+<body>
+    
+<div id="main">
+    <header>
+
+
+        <div class="outer headerBackground">
+    
+            <div class="wrap">
+                
+                <div class="col">
+                        <a class="revel" href="#">Revel</a>
+                </div>
+                <div class="col">
+                      
+                        
+                </div>
+                <div class="col">
+                        <a class='example' href="#">brand<span>example</span></a>
+                        <a class='example'>Establishment<span>example(1)</span></a>
+                </div>
+                <div class="col">
+                     
+                        <a class='example'>Welecome<span>Atlasadmin</span></a>
+                        <i class='example power fa fa-power-off'></i>
+                </div>
+            </div>
+        </div>
+<!--         
+<nav class="navbar navbar-default slid minheight">
+    <div class="container-fluid">
+      <div class="navbar-header">
+       
+      </div>
+      <ul class="nav navbar-nav">
+            <li class='navstyle leftposition'>
+                <a class="navbar-brand revel" href="#">Revel</a>
+            </li>
+       
+            <span class='navfloat'>
+                <li>
+                    <a class='example' href="#">brand<span>Restaurant Town</span></a>
+                </li>
+                <li>
+                  <a class='example'>Establishment<span>Delivery Service(1)</span></a>
+                </li>
+                <li>
+                    <a class='example'>Welecome<span>Milke</span></a>
+                </li>
+                <li>
+                    <i class='example fa fa-power-off'></i>
+                </li>
+                
+            </span>
+        
+       
+      </ul>
+
+    </div>
+  </nav> -->
+    </header>
+    <div class='menu'>
+        
+        <span class='control'>
+            <a class='fa fa-tachometer icon'></a>
+            <span class='info'>Overview</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa-user icon'></a>
+            <span class='info'>Employees</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa-clock-o icon'></a>
+            <span class='info'>Schedules</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa-bar-chart icon active'></a>
+            <span class='info'>Reports</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa-product-hunt icon'></a>
+            <span class='info'>Products</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa-download icon'></a>
+            <span class='info'>Inventory</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa-archive icon'></a>
+            <span class='info'>Establisiment</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa fa-wrench icon'></a>
+            <span class='info'>Setting</span>
+        </span>
+        <span class='control'>
+            <a class='fa fa-headphones icon'></a>
+            <span class='info'>Support</span>
+        </span>
+    </div>
+    
+    <div class="content">
+            <div class="subMenu">
+                    <ul class='nav'>
+                        <li>
+                            <a class='fa fa-calendar'><span>Sales Summary</span></a>
+                        </li>
+                        <li>
+                            <a class='fa fa-copy'><span>Hourly Sales</span></a>
+                        </li>
+                        <li>
+                            <a class='fa fa-calendar'><span>Product Mix</span></a>
+                        </li>
+                        <li>
+                            <a class='fa fa-copy'><span>Order History</span></a>
+                        </li>
+                        <li>
+                            <a class='fa fa-copy'><span>Payment Summary</span></a>
+                        </li>
+                        <li>
+                            <a class='fa fa-copy'><span>Other Reports</span></a>
+                        </li>
+                    </ul>
+                </div>
+               <div class="tableContent">
+                    <div class="subHeader headerBackground">
+                    <ul class='nav leftText'>
+                        <li>Delivery Drivere</li>
+                        <li>(10/30/2013 00:00-10/31/2013 00:00)</li>
+                    </ul>
+                    <span class='inputPosition'>
+                        <input class='date' type='date'>
+                    </span>
+                    </div>
+                    <span class='print'><i class="fa fa-print" aria-hidden="true"></i>Print Report</span>
+
+                    <!-- table 1  -->
+                    <!-- ////// -->   <div style='overflow-y: scroll;width: 100%; height: 315px;overflow-x: hidden'>
+                 
+                    <p class='title'>Jones Saaly</p>
+                    <table class='table tableHead'>
+                        <thead>
+                            <tr>
+                                <td><i># of order:1</i></td>
+                                <td><i>Avg, Delivery Time Oh. 13min. 12s.</i></td>
+                                <td><i>Avg food Preep Time: oh. 17min. 13s.</i></td>
+                                <td><i>Payments: Cash = 19.5</i></td>
+                                <td><i>Tips: Cash = 3.5</i></td>
+                            </tr>
+                        </thead>
+                    </table>
+                    <table class='table mainTable'>
+                        <thead>
+                            <tr>
+                                <td>Order Id</td>
+                                <td>Payment Total</td>
+                                <td>Payment Type</td>
+                                <td>Created</td>
+                                <td>Clock Out</td>
+                                <td>Clock In</td>
+                                <td>Delivery Time</td>
+                                <td>Food Prep Time</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>388</td>
+                                <td>19.50</td>
+                                <td>Cash</td>
+                                <td>10/30/2013 17:51</td>
+                                <td>10/30/2013 17:58</td>
+                                <td>10/30/2013 18:11</td>
+                                <td>Oh. 13min. 12s.</td>
+                                <td>Oh. 07min. 13s.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+
+                    <!-- table2 -->
+                    <p class='title'>Knockly, Mark</p>
+                    <table class='table tableHead'>
+                        <thead>
+                            <tr>
+                                    <td><i># of order:1</i></td>
+                                    <td><i>Avg, Delivery Time Oh. 13min. 12s.</i></td>
+                                    <td><i>Avg food Preep Time: oh. 17min. 13s.</i></td>
+                                    <td><i>Payments: Cash = 19.5</i></td>
+                                    <td><i>Tips: Cash = 3.5</i></td>
+                            </tr>
+                        </thead>
+                    </table>
+                    <table class='table mainTable'>
+                        <thead>
+                            <tr>
+                                <td>Order Id</td>
+                                <td>Payment Total</td>
+                                <td>Payment Type</td>
+                                <td>Created</td>
+                                <td>Clock Out</td>
+                                <td>Clock In</td>
+                                <td>Delivery Time</td>
+                                <td>Food Prep Time</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>387</td>
+                                <td>19.50</td>
+                                <td>Cash</td>
+                                <td>10/30/2013 17:51</td>
+                                <td>10/30/2013 17:58</td>
+                                <td>10/30/2013 18:11</td>
+                                <td>Oh. 13min. 12s.</td>
+                                <td>Oh. 07min. 13s.</td>
+                            </tr>
+                            <tr>
+                                    <td>386</td>
+                                    <td>19.50</td>
+                                    <td>Cash</td>
+                                    <td>10/30/2013 17:51</td>
+                                    <td>10/30/2013 17:58</td>
+                                    <td>10/30/2013 18:11</td>
+                                    <td>Oh. 13min. 12s.</td>
+                                    <td>Oh. 07min. 13s.</td>
+                                </tr>
+                                <tr>
+                                        <td>385</td>
+                                        <td>19.50</td>
+                                        <td>Cash</td>
+                                        <td>10/30/2013 17:51</td>
+                                        <td>10/30/2013 17:58</td>
+                                        <td>10/30/2013 18:11</td>
+                                        <td>Oh. 13min. 12s.</td>
+                                        <td>Oh. 07min. 13s.</td>
+                                    </tr>
+                        </tbody>
+                        </table>
+
+
+
+
+                        <!-- table3 -->
+
+
+                        <p class='title'>Snow, Jamie</p>
+                        <table class='table tableHead'>
+                            <thead>
+                                <tr>
+                                        <td><i># of order:1</i></td>
+                                        <td><i>Avg, Delivery Time Oh. 13min. 12s.</i></td>
+                                        <td><i>Avg food Preep Time: oh. 17min. 13s.</i></td>
+                                        <td><i>Payments: Cash = 19.5</i></td>
+                                        <td><i>Tips: Cash = 3.5</i></td>
+                                </tr>
+                            </thead>
+                        </table>
+                        <table class='table mainTable'>
+                            <thead>
+                                <tr>
+                                    <td>Order Id</td>
+                                    <td>Payment Total</td>
+                                    <td>Payment Type</td>
+                                    <td>Created</td>
+                                    <td>Clock Out</td>
+                                    <td>Clock In</td>
+                                    <td>Delivery Time</td>
+                                    <td>Food Prep Time</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>388</td>
+                                    <td>19.50</td>
+                                    <td>Cash</td>
+                                    <td>10/30/2013 17:51</td>
+                                    <td>10/30/2013 17:58</td>
+                                    <td>10/30/2013 18:11</td>
+                                    <td>Oh. 13min. 12s.</td>
+                                    <td>Oh. 07min. 13s.</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                            
+                            <!-- totals -->
+    
+
+                            <div class="totals">
+                                <div class="totalsContent">
+                                    <div class='totalsTitle'>
+                                        <span>Totals</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                                <div class="left">
+                                                    <span>Payments</span>
+                                                </div>
+                                               
+                                        </div>
+                                        <div class="col-md-6">
+                                                <div class='right'>
+                                                        <span>Tips</span>
+                                                </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                            <div class="col-md-6">
+                                                    <div class="mainLeft">
+                                                     <div>
+                                                         <sap>Cash</sap>
+                                                         <span class='floatRight'>42</span>
+                                                    </div>
+                                                        <div>
+                                                        <span>Credit Plus</span>
+                                                        <sap class='floatRight'>62</sap>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                   
+                                            </div>
+                                            <div class="col-md-6">
+                                                    <div class='mainRight'>
+                                                           <div>
+                                                                <span>Cash</span>
+                                                                <span class='floatRight'>8.50</span>
+                                                           </div>
+                                                          <div>
+                                                                <span>CreditPlus</span>
+                                                                <span class='floatRight'>9.00</span>
+                                                          </div>
+
+                                                    </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                </div>
+                                <!-- ///// --></div>
+
+               </div>
+
+
+    </div>
+
+   
+</div>
+  
+    <script src='../dev/jquery/jquery.min.js'></script>
+   
+    <script src='../js/script.js'></script>
+</body>
+</html>

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <link rel="stylesheet" href="../dev/bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../dev/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dev/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Customer name and order name</title>
+</head>
+<body>
+    
+<div class='mainMaxHeight' id="main">
+    <header>
+
+
+
+            <div class="outer headerBackground">
+    
+                    <div class="wrap">
+                        
+                        <div class="col">
+                                <a class="revel" href="#">Revel</a>
+                                <button class=' paramBtn fa fa-cog' href="#"></button>
+                               
+                              
+                                    
+                        </div>
+                        <div class="col">
+                                <button class='prevnext prev' href="#">prev</button>
+                                <span class='order'>order No: 2021</span>
+                                <button class='prevnext next' href="#">next</button>
+                        </div>
+                        <div class="col">
+                                <select class=' select'><option>Search Everything</option></select>
+                        </div>
+                        <div class="col">
+                             
+                                <button class='searchButton'><i class='fa fa-search'></i>Search</button>
+                                <input placeholder='Search...' type='text' class='hiddenInput'>
+                        </div>
+                    </div>
+                </div>
+
+    </header>  
+    
+    <div  class="main">  
+        <!-- <div class="leftSide">
+            <div class="content">
+                <div class="title">
+                 
+                    <span class='text'>Customer Name and Order Name</span>
+                    <a  class='plusBtn fa fa-plus'></a>
+                </div>
+                <div class="tableBorder">
+                    <table class='table table1'>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Qty</td>
+                                <td>Each</td>
+                                <td>Total</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Burger</td>
+                                <td>1</td>
+                                <td>$5.00</td>
+                                <td>$5.00</td>
+                            </tr>
+                            <tr>
+                                    <td>Coke</td>
+                                    <td>
+                                        <button class='fa fa-minus minusBtn'></button>
+                                        <span>1</span>
+                                        <button class='fa fa-plus plusBtn'></button>
+                                    </td>
+                                    <td>$2.25</td>
+                                    <td>$2.25</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                            </tr>
+                                <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                    </tr>
+                        </tbody>
+                    </table>
+                    <div class="statis">
+                        
+                       <div>
+                            <span class='statInfo'>Sub Total:$7.25</span>
+                            <span class='statInfo right'><span class='total'>Total: $7.25</span></span>
+
+                      </div>
+                      <div>
+                            <span class='statInfo'>Discounts: $00.00</span>
+                           
+                      </div>
+                      <div>
+                           <span class='statInfo'>Tax: $1.34</span>
+                           <span class='statInfo right'>Balance Due   <span class='balance'>$8.59</span></span>
+                    </div> 
+                    <div class="buttons">
+                       
+                            <span><button class='button white'>Hold ORder</button></span>
+                            <span><button class='button white'>Cancel ORder</button></span>
+                            <span><button class='button blue'>Send ORder</button></span>
+                       
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="circleButtons">
+                        <ul class='nav buttonStyle'>
+                             <li> 
+                                 <a class='fa fa-plus button'></a>
+                                 <span class='info'>Add Extra Item</span>
+                             </li>
+                             <li>
+                                 <a class='fa fa-percent button'></a>
+                                 <span  class='info'>Discount Order</span>
+                             </li>
+                             <li>
+                                  <a class='fa fa-facebook button'></a>
+                                  <span  class='info'>TO Go Order</span>
+                             </li>
+                             <li>
+                                  <a class='fa fa-print button'></a>
+                                  <span  class='info'>Printy Gues Check</span>
+                            </li>
+                             <li> 
+                                 <a class='fa fa-dollar button bigButton'></a>
+                                 <span  class='info'>Pay</span>
+                             </li>
+                        </ul>
+                       
+                     </div>
+               
+            </div>
+           
+        </div> -->
+
+        <div class="leftSide left-side">
+            <div class="content content2">
+                <div class="title">
+                    <div>
+                         <span class='circleContent'></span>
+                         <span class='customer-order-info'>Customer Name and Order Name</span>
+                    </div> 
+                   
+                    <a  class='plusBtn paddingBtn fa fa-plus'></a>
+                </div>
+                <div class="tableBorder table-border">
+                        <table class='table' style='margin-bottom: 0px;background: white;text-align: center;'>
+                         <thead>
+                    <tr class=''>
+                        <td>Name</td>
+                        <td>Qty</td>
+                        <td>Each</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                        </table>
+                    <div class='addorderTable'>
+                            <table class='table'>
+                                   
+                                    <tbody>
+                                         
+                                        <tr class=''>
+                                            <td>Margherita</td>
+                                            <td>1</td>
+                                            <td>$6.00</td>
+                                            <td>$6.00</td>
+                                        </tr>
+                                        
+                                            
+                                  
+                                        <tr class=''>
+                                                <td>Coke</td>
+                                                <td>
+                                                    <button class='fa fa-minus minusBtn'></button>
+                                                    <span>1</span>
+                                                    <button class='fa fa-plus plusBtn'></button>
+                                                </td>
+                                                <td>$2.25</td>
+                                                <td>$2.25</td>
+                                        </tr>
+                                       
+                                       
+                                    </tbody>
+                                </table>
+                    </div>
+                    <div class="statis">
+                        
+                      <div class="row">
+                          <div class="col-md-6">
+                                <div>
+                                        <p class='statInfo'>Sub Total:$7.25</p>
+                                        <p class='statInfo'><span class='total'>Total: $7.25</span></p>
+            
+                                  </div>
+                                 
+                          </div>
+                          <div class="col-md-6">
+                                
+                                <p class='statInfo'>Tax: $1.34</p>
+                                <p class='statInfo'>Discounts: $00.00</p>
+                                <p class='statInfo'>Balance Due   <span class='balance'>$8.59</span></p>
+                                
+                          </div>
+                      </div>
+                    <div class="buttons">
+                           
+                            <!-- <span><a class='fa fa-envelope left'></a></span> -->
+                            <span><button class='button white'>Cancel Order</button></span>
+                            <span><button class='button white'>Hold Order</button></span>
+                            <span><button class='button blue'>Send ORder</button></span>
+                       
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="circleButtons">
+                        <ul class='nav buttonStyle'>
+                             <li> 
+                                 <a class='fa fa-plus button'></a>
+                                 <span class='info'>Add Extra Item</span>
+                             </li>
+                             <li>
+                                 <a class='fa fa-percent button'></a>
+                                 <span  class='info'>Discount Order</span>
+                             </li>
+                             <li>
+                                  <a class='button fa fa-plus'></a>
+                                  <span  class='info'>Enter Barcode</span>
+                             </li>
+                             <li>
+                                  <a class='fa fa-print button'></a>
+                                  <span  class='info'>Printy Gues Check</span>
+                            </li>
+                             <li> 
+                                 <a class='fa fa-dollar  bigButton'></a>
+                                 <span  class='info'>Pay</span>
+                             </li>
+                        </ul>
+                       
+                     </div>
+               
+            </div>
+           
+        </div>
+
+
+
+
+        <div class="rightSide scroll">
+            <div class="content">
+                
+                <section class="regular slider">
+                    <div class='response'>
+                   <div class='imgBox'>
+                       <img>
+                       <a>Lunch</a>
+                   </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                  </section>
+
+
+                  <section class="regular2 slider">
+                    <div class='response'>
+                   <div class='imgBox'>
+                       <img>
+                       <a>Lunch</a>
+                   </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                  </section>
+
+
+
+                  <section class="regular3  slider">
+                    <div class='response'>
+                   <div class='imgBox'>
+                       <img>
+                       <a>Lunch</a>
+                   </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                  </section>
+                  
+                  <section class="regular3 slider">
+                    <div class='response'>
+                   <div class='imgBox'>
+                       <img>
+                       <a>Lunch</a>
+                   </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                  </section>
+                   
+                  <section class="regular4 slider">
+                    <div class='response'>
+                   <div class='imgBox'>
+                       <img>
+                       <a>Lunch</a>
+                   </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                    <div class='response'>
+                        <div class='imgBox'>
+                            <img>
+                            <a>Lunch</a>
+                        </div>
+                    </div>
+                  </section>
+
+            </div>
+        </div>
+    </div>
+</div>
+   
+
+
+
+    <script src='../dev/jquery/jquery.min.js'></script>
+   
+    <script src='../js/slick.min.js'></script>
+    <script src='../js/script.js'></script>
+
+</body>
+</html>
